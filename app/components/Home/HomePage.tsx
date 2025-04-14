@@ -3,7 +3,7 @@ import { MarketGrid } from "../Market/MarketGrid";
 
 export const HomePage = () => {
   return (
-    <main className="flex min-h-screen flex-col items-center p-24">
+    <main className="flex min-h-screen items-center flex-col px-12">
       <BannerCarousel />
       <MarketGrid />
     </main>

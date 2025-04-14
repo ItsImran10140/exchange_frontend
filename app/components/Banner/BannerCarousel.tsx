@@ -21,8 +21,8 @@ export const BannerCarousel = () => {
   }, [nextBanner]);
 
   return (
-    <div className="w-full max-w-4xl mb-12 relative overflow-hidden rounded-lg">
-      <div className="relative h-80 w-full">
+    <div className="w-full mt-5 mb-10 relative overflow-hidden rounded-lg">
+      <div className="relative h-[400px] w-full">
         {banners.map((banner, index) => (
           <BannerSlide
             key={banner.image}
