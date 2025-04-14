@@ -31,7 +31,7 @@ export const MarketBar = ({market}: {market: string}) => {
     // 
 
     return <div>
-        <div className="flex items-center flex-row relative w-full p-1 overflow-hidden border-b border-slate-800">
+        <div className="flex items-center rounded-lg m-1 mr-2 bg-[#14151a] flex-row relative w-[99%] p-1 overflow-hidden">
             <div className="flex items-center justify-between flex-row no-scrollbar overflow-auto pr-4">
                     <Ticker market={market} />
                     <div className="flex items-center flex-row space-x-8 pl-4">

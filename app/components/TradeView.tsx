@@ -46,7 +46,7 @@ function TradingViewWidget({ market }: { market: string }) {
   );
 
   return (
-    <div className='h-[500px] w-[100%]'>
+    <div className='h-[500px] w-[100%] bg-[#14151a] rounded-lg p-2 overflow-hidden'>
 
     <div className="tradingview-widget-container" ref={container} style={{ height: "500px", width: "100%" }}>
       <div className="tradingview-widget-container__widget" style={{ height: "calc(100% - 32px)", width: "100%" }}></div>
